@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.logo {
+  background-image: url("./Assets/images/logo1.png");
+  background-size: 100%;
+  width: 50px;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  background-position: center;
+
+  height: 40px;
+  padding-top: 70px;
+}
+.delete-icon {
+  font-size: 20px;
+}
+.delete-icon:hover {
+  color: red;
+}
+.edit-icon {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.edit-icon:hover {
+  color: green;
+}
+.packages {
+  margin-top: 100px;
+}
+.table-layout .ant-card-body {
+  padding: 0px !important;
+  margin-right: 1000px;
+}
+.ant-table-pagination.ant-pagination {
+  margin-left: 200px;
+}
+.hi {
+  display: none;
+}
